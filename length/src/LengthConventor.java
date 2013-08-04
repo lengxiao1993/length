@@ -17,7 +17,11 @@ import java.util.Map;
 import java.util.Scanner;
 
 public class LengthConventor {
-
+	/*
+	 * 此程序直接读取类路径下的  "input.txt"的方式获取输入文件内容
+	 * 如需运行程序，请将编译后的LengthConvertor。class与input.txt放置于同一文件夹下
+	 * 
+	 */
 	private static Map<String, Double> rulesMap = new HashMap<String, Double>();
 	// 分析文件的过程中将需要的输出结果均存储于该ArrayList 中最后统一输出
 	private static ArrayList<String> results = new ArrayList<String>();
