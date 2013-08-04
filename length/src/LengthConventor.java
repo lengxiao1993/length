@@ -43,7 +43,7 @@ public class LengthConventor {
 
 		while (scanner.hasNextLine()) {
 			String line = scanner.nextLine();
-			System.out.println(line);
+			//System.out.println(line);
 
 			if (line.contains("=")) {
 				// ´æ´¢×ª»»¹æÔò
